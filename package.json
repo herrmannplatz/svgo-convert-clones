@@ -1,0 +1,22 @@
+{
+  "name": "svgo-convert-clones",
+  "version": "1.0.0",
+  "description": "SVGO plugin to convert cloned nodes into their original nodes",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "svgo cc.svg -o cc.min.svg",
+    "fix": "npm run prettier -- --write",
+    "prettier": "prettier \"**/*.{ts,css,js,md,tsx,html}\""
+  },
+  "keywords": ["svgo", "svgo plugin", "figma", "svg"],
+  "author": {
+		"name": "René Herrmann",
+		"email": "rene@herrmannplatz.de",
+		"url": "https://herrmannplatz.de"
+	},
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "svgo": "^2.8.0"
+  }
+}
